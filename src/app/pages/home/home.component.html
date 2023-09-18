@@ -1,7 +1,7 @@
 <div class="article">
     <div class="welcome-title">
-        <h1>Bem-vindo! Meu nome é <span>Felipe Bertoli</span></h1><b>_</b>
+        <h1> {{textWelcome}} <span>Felipe Bertoli</span></h1><b>_</b>
     </div>
-    <div class="welcome-subtitle"><b>[</b> Graduando em Ciência da Computação <b>/</b> Aspirante a Desenvolvedor Web <b>]</b></div>
+    <div class="welcome-subtitle"><b>[</b> {{ textGrade }}<b>/</b> Aspirante a Desenvolvedor <span [ngClass] = "cssClass">{{ itemAtual}}</span><b>]</b></div>
     <div class="button-container"><a href=""><button>MEUS PROJETOS</button></a></div>
 </div>
