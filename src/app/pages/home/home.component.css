@@ -1,8 +1,3 @@
-.article {
-    height: 100%;
-    margin: 7rem;
-    margin-left: 10rem;
-}
 
 .welcome-title {
     display: flex;
@@ -20,7 +15,7 @@
     overflow: hidden;
     width: 80rem;
     color:  rgb(255, 255, 255);
-    text-shadow: 2px 1px 2px rgb(0, 255, 255);
+   ;
 }
 
 .welcome-title span {
@@ -94,8 +89,12 @@
         opacity: 0;
       }
   
-      50%{
+      30%{
           opacity: 1;
+      }
+
+      70% {
+        opacity: 1;
       }
 
       100% {

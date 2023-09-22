@@ -4,15 +4,14 @@
     <h1>FELIPE BERTOLI <b>.DEV</b></h1>
     <hr>
     <div class="menu-details">
-        <div class="menu-item">Home</div>
-        <div class="menu-item">Sobre mim</div>
-        <div class="menu-item">Projetos</div>
+        <a [routerLink]="['home']"><div class="menu-item">Home</div></a>
+        <a [routerLink]="['about-me']"><div class="menu-item">Sobre mim</div></a>
+        <a [routerLink]="['projects']"><div class="menu-item">Projetos</div></a>
         <div class="menu-item">Contato</div>
     </div>
 
     <div class="menu-links">
-        <div class="menu-link-item"><a href="https://github.com/FelipeBertoli" target="_blank"><i class="fi fi-brands-github"></i></a>
-            </div>
+        <div class="menu-link-item"><a href="https://github.com/FelipeBertoli" target="_blank"><i class="fi fi-brands-github"></i></a></div>
         <div class="menu-link-item"><a href="http://www.linkedin.com/in/felipebertoli" target="_blank"> <i class="fi fi-brands-linkedin"></i></a></div>
         <div class="menu-link-item"><a href=" https://wa.me/5543984331545" target="_blank"><i class="fi fi-brands-whatsapp"></i></a></div>
     </div>

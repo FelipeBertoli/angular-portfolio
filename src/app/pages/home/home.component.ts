@@ -9,7 +9,7 @@ export class HomeComponent {
   textGrade:string = "Graduando em Ciência da Computação"
   textRole:string = "Aspirante a Desenvolvedor Web"
   textWelcome:string = "Bem vindo! Meu nome é "
-  roles:string[] = ['Web', 'Java']
+  roles:string[] = ['Web', 'Full-stack', 'Java']
   itemAtual:string = '';
   indiceAtual:number = 0;
   cssClass:string = '';
