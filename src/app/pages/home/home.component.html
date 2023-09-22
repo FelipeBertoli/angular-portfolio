@@ -3,5 +3,5 @@
         <h1> {{textWelcome}} <span>Felipe Bertoli</span></h1><b>_</b>
     </div>
     <div class="welcome-subtitle"><b>[</b> {{ textGrade }}<b>/</b> Aspirante a Desenvolvedor <span [ngClass] = "cssClass">{{ itemAtual }}</span><b>]</b></div>
-    <div class="button-container"><a href=""><button>MEUS PROJETOS</button></a></div>
+    <div class="button-container"><a [routerLink]="['projects']"><button>MEUS PROJETOS</button></a></div>
 </div>
